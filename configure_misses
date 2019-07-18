@@ -1,0 +1,5 @@
+Configure miss: icc
+Configure miss: suncc
+Configure miss: if compiler supports -R
+Configure miss: if debug is enabled
+Configure miss: if zts is enabled
