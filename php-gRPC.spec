@@ -4,7 +4,7 @@
 #
 Name     : php-gRPC
 Version  : 1.22.0
-Release  : 1
+Release  : 2
 URL      : https://pecl.php.net//get/grpc-1.22.0.tgz
 Source0  : https://pecl.php.net//get/grpc-1.22.0.tgz
 Summary  : No detailed summary available
@@ -14,6 +14,7 @@ Requires: php-gRPC-lib = %{version}-%{release}
 BuildRequires : buildreq-php
 BuildRequires : pkgconfig(zlib)
 BuildRequires : zlib-dev
+Patch1: 0001-Rename-gettid-functions.patch
 
 %description
 # Overview
@@ -33,6 +34,7 @@ lib components for the php-gRPC package.
 
 %prep
 %setup -q -n grpc-1.22.0
+%patch1 -p1
 
 %build
 export http_proxy=http://127.0.0.1:9/
