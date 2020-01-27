@@ -4,7 +4,7 @@
 #
 Name     : php-gRPC
 Version  : 1.22.0
-Release  : 3
+Release  : 4
 URL      : https://pecl.php.net//get/grpc-1.22.0.tgz
 Source0  : https://pecl.php.net//get/grpc-1.22.0.tgz
 Summary  : No detailed summary available
@@ -34,6 +34,7 @@ lib components for the php-gRPC package.
 
 %prep
 %setup -q -n grpc-1.22.0
+cd %{_builddir}/grpc-1.22.0
 %patch1 -p1
 
 %build
@@ -53,4 +54,4 @@ make  %{?_smp_mflags}
 
 %files lib
 %defattr(-,root,root,-)
-/usr/lib64/extensions/no-debug-non-zts-20180731/grpc.so
+/usr/lib64/extensions/no-debug-non-zts-20190902/grpc.so
