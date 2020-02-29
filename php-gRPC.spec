@@ -4,7 +4,7 @@
 #
 Name     : php-gRPC
 Version  : 1.22.0
-Release  : 4
+Release  : 5
 URL      : https://pecl.php.net//get/grpc-1.22.0.tgz
 Source0  : https://pecl.php.net//get/grpc-1.22.0.tgz
 Summary  : No detailed summary available
