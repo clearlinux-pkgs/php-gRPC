@@ -1,5 +1,5 @@
 PKG_NAME := php-gRPC
-URL = https://pecl.php.net/get/grpc-1.33.1.tgz
+URL = https://pecl.php.net/get/grpc-1.34.0.tgz
 ARCHIVES = 
 
 include ../common/Makefile.common
