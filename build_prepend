@@ -1,0 +1,1 @@
+export GCC_IGNORE_WERROR=1
