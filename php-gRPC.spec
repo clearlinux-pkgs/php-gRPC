@@ -4,7 +4,7 @@
 #
 Name     : php-gRPC
 Version  : 1.42.0
-Release  : 18
+Release  : 19
 URL      : https://pecl.php.net/get/grpc-1.42.0.tgz
 Source0  : https://pecl.php.net/get/grpc-1.42.0.tgz
 Summary  : No detailed summary available
@@ -54,4 +54,4 @@ make  %{?_smp_mflags}
 
 %files lib
 %defattr(-,root,root,-)
-/usr/lib64/extensions/no-debug-non-zts-20200930/grpc.so
+/usr/lib64/extensions/no-debug-non-zts-20210902/grpc.so
