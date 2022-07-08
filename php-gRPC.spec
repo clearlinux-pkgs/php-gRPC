@@ -4,7 +4,7 @@
 #
 Name     : php-gRPC
 Version  : 1.46.3
-Release  : 24
+Release  : 25
 URL      : https://pecl.php.net/get/grpc-1.46.3.tgz
 Source0  : https://pecl.php.net/get/grpc-1.46.3.tgz
 Summary  : No detailed summary available
