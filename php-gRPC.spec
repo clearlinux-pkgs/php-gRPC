@@ -4,7 +4,7 @@
 #
 Name     : php-gRPC
 Version  : 1.48.1
-Release  : 37
+Release  : 38
 URL      : https://pecl.php.net/get/grpc-1.48.1.tgz
 Source0  : https://pecl.php.net/get/grpc-1.48.1.tgz
 Summary  : No detailed summary available
