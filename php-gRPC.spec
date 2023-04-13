@@ -5,7 +5,7 @@
 #
 Name     : php-gRPC
 Version  : 1.53.0
-Release  : 48
+Release  : 49
 URL      : https://pecl.php.net/get/grpc-1.53.0.tgz
 Source0  : https://pecl.php.net/get/grpc-1.53.0.tgz
 Summary  : No detailed summary available
