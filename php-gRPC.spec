@@ -4,10 +4,10 @@
 # Using build pattern: phpize
 #
 Name     : php-gRPC
-Version  : 1.53.0
-Release  : 49
-URL      : https://pecl.php.net/get/grpc-1.53.0.tgz
-Source0  : https://pecl.php.net/get/grpc-1.53.0.tgz
+Version  : 1.54.0
+Release  : 50
+URL      : https://pecl.php.net/get/grpc-1.54.0.tgz
+Source0  : https://pecl.php.net/get/grpc-1.54.0.tgz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : Apache-2.0
@@ -45,8 +45,8 @@ license components for the php-gRPC package.
 
 
 %prep
-%setup -q -n grpc-1.53.0
-cd %{_builddir}/grpc-1.53.0
+%setup -q -n grpc-1.54.0
+cd %{_builddir}/grpc-1.54.0
 
 %build
 ## build_prepend content
