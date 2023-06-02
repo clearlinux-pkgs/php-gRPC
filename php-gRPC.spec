@@ -4,10 +4,10 @@
 # Using build pattern: phpize
 #
 Name     : php-gRPC
-Version  : 1.54.0
-Release  : 54
-URL      : https://pecl.php.net/get/grpc-1.54.0.tgz
-Source0  : https://pecl.php.net/get/grpc-1.54.0.tgz
+Version  : 1.55.0
+Release  : 55
+URL      : https://pecl.php.net/get/grpc-1.55.0.tgz
+Source0  : https://pecl.php.net/get/grpc-1.55.0.tgz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : Apache-2.0
@@ -45,8 +45,11 @@ license components for the php-gRPC package.
 
 
 %prep
-%setup -q -n grpc-1.54.0
-cd %{_builddir}/grpc-1.54.0
+%setup -q -n grpc-1.55.0
+cd %{_builddir}/grpc-1.55.0
+pushd ..
+cp -a grpc-1.55.0 buildavx2
+popd
 
 %build
 ## build_prepend content
@@ -64,6 +67,7 @@ mkdir -p %{buildroot}/usr/share/package-licenses/php-gRPC
 cp %{_builddir}/grpc-%{version}/LICENSE %{buildroot}/usr/share/package-licenses/php-gRPC/242ec6abfdd8c114f2e803b84934469c299348fc || :
 %make_install
 
+/usr/bin/elf-move.py avx2 %{buildroot}-v3 %{buildroot} %{buildroot}/usr/share/clear/filemap/filemap-%{name}
 
 %files
 %defattr(-,root,root,-)
