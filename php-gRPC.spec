@@ -4,10 +4,10 @@
 # Using build pattern: phpize
 #
 Name     : php-gRPC
-Version  : 1.56.0
-Release  : 61
-URL      : https://pecl.php.net/get/grpc-1.56.0.tgz
-Source0  : https://pecl.php.net/get/grpc-1.56.0.tgz
+Version  : 1.58.0
+Release  : 62
+URL      : https://pecl.php.net/get/grpc-1.58.0.tgz
+Source0  : https://pecl.php.net/get/grpc-1.58.0.tgz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : Apache-2.0
@@ -45,10 +45,10 @@ license components for the php-gRPC package.
 
 
 %prep
-%setup -q -n grpc-1.56.0
-cd %{_builddir}/grpc-1.56.0
+%setup -q -n grpc-1.58.0
+cd %{_builddir}/grpc-1.58.0
 pushd ..
-cp -a grpc-1.56.0 buildavx2
+cp -a grpc-1.58.0 buildavx2
 popd
 
 %build
