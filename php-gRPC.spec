@@ -7,7 +7,7 @@
 #
 Name     : php-gRPC
 Version  : 1.61.0
-Release  : 79
+Release  : 80
 URL      : https://pecl.php.net/get/grpc-1.61.0.tgz
 Source0  : https://pecl.php.net/get/grpc-1.61.0.tgz
 Summary  : No detailed summary available
