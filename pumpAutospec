@@ -1,3 +1,4 @@
+Compiler:  '__builtin_clzs' needs isa option -mlzcnt
  error: '__builtin_ctzs' needs isa option -mbmi
  error: '__builtin_ctzs' needs isa option -mbmi
  error: '__builtin_ctzs' needs isa option -mbmi
