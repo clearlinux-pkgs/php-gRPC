@@ -7,7 +7,7 @@
 #
 Name     : php-gRPC
 Version  : 1.68.0
-Release  : 94
+Release  : 95
 URL      : https://pecl.php.net/get/grpc-1.68.0.tgz
 Source0  : https://pecl.php.net/get/grpc-1.68.0.tgz
 Summary  : No detailed summary available
